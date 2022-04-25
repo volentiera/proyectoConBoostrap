@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* navbar */
+.navbar{
+    background-color: darkblue;
+
+}
+.nabvarContainer1 ul{
+    display: flex;
+    flex-direction: row;
+}
+.separar{
+    padding: 15px;
+}
+.buttonColor{
+    color: aqua ;
+}
