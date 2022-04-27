@@ -88,7 +88,7 @@
 
 /* index ini */
 .espacioHeaderJumbo{
-    height: 26px;
+    height: 10px;
 
 }
 
@@ -98,7 +98,7 @@
     background-position: center;
     height: 450px;
     color: aliceblue;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 2px black;
     border-radius: 0px;
 }
 .tituloPrincipal{
@@ -137,6 +137,13 @@
 .carousel-control-next, .carousel-control-prev {
     filter: invert(100%);
 }
+@media (min-width:350px ) and (max-width: 576px){
+    .imagen1{
+        width: 80% !important;
+        height: 350px;
+    }
+}
+
 
 /* articulos fin */
 
