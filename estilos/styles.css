@@ -7,7 +7,7 @@
 }
 /* navbar */
 .navbar {
-    background-color: #00008b;
+    background-color: #030346;
     color:aliceblue !important;
 
 }
@@ -15,6 +15,20 @@
     color:aliceblue !important;
 
 }
+.botonNav:hover{
+    background-color: #030361;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transform: scale(125%);
+}
+.botonNav:active{
+    -webkit-box-shadow: inset 0px 0px 5px #02027f;
+    -moz-box-shadow: inset 0px 0px 5px #02027f;
+    box-shadow: inset 0px 0px 5px #02027f;
+    outline: none;
+}
+
 
 .nabvarContainer1 ul {
     display: flex;
@@ -33,7 +47,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-    background-color: #00008b;
+    background-color: #030346;
     height: 125px;
     
 }
@@ -49,7 +63,11 @@
     margin-right: 10px;
     border-color: rgb(12, 197, 225);
     border-style: solid;
+    text-decoration: none;
     
+}
+.footerContainer .subir{
+    color: rgb(9, 177, 203)
 }
 
 .footerContainer .facebook{
@@ -82,11 +100,24 @@
 .subir:hover{
     transform: scale(125%);
 }
-/* fin index footer */
+/* fin footer */
 
 /* footer fin*/
 
 /* index ini */
+
+.botonNavIndex{
+    background-color: #030361;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-box-shadow: inset 0px 0px 5px #02027f;
+    -moz-box-shadow: inset 0px 0px 5px #02027f;
+    box-shadow: inset 0px 0px 5px #02027f;
+    outline: none;
+
+}
+
 .espacioHeaderJumbo{
     height: 10px;
 
@@ -104,6 +135,15 @@
 .tituloPrincipal{
     letter-spacing: 2px;
     font-weight: bold;
+}
+.color1{
+    color: rgb(255, 38, 0);
+}
+.color2{
+    color:rgb(74, 235, 130);
+}
+.color3{
+    color: rgb(33, 22, 234);
 }
 
 .separacionJumbo{
@@ -130,6 +170,17 @@
 
 /* articulos */
 
+.botonNavArticulos{
+    background-color: #030361;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-box-shadow: inset 0px 0px 5px #02027f;
+    -moz-box-shadow: inset 0px 0px 5px #02027f;
+    box-shadow: inset 0px 0px 5px #02027f;
+    outline: none;
+}
+
 .separarLasFilas{
     height: 200px;
 }
@@ -148,8 +199,24 @@
 /* articulos fin */
 
 /* contacto */
+.botonNavContacto{
+    background-color: #030361;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-box-shadow: inset 0px 0px 5px #02027f;
+    -moz-box-shadow: inset 0px 0px 5px #02027f;
+    box-shadow: inset 0px 0px 5px #02027f;
+    outline: none;
+}
 
 .colorTextoContacto{
     color: aliceblue;
 }
+@media (max-width:450px ){
+    .achicarImagen{
+        width: 90%;
+    }
+}
+
 /* contacto fin */
