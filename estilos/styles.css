@@ -166,6 +166,7 @@
 .letraIndex{
     color: aliceblue;
 }
+
 /* index fin */
 
 /* articulos */
@@ -184,6 +185,19 @@
 .separarLasFilas{
     height: 200px;
 }
+
+.imagenArt{
+    width: 100%;
+    height: 450px;
+}
+.serchbar{
+    height: 50px;
+}
+.paginacion{
+    display: flex;
+    align-content: center;
+}
+
 
 .carousel-control-next, .carousel-control-prev {
     filter: invert(100%);
