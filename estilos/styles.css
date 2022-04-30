@@ -7,7 +7,7 @@
 }
 /* navbar */
 .navbar {
-    background-color: #030346;
+    background-color: #00001a;
     color:aliceblue !important;
 
 }
@@ -16,16 +16,16 @@
 
 }
 .botonNav:hover{
-    background-color: #030361;
+    background-color: #030346;
     border-radius: 2px;
     padding-left: 5px;
     padding-right: 5px;
     transform: scale(125%);
 }
 .botonNav:active{
-    -webkit-box-shadow: inset 0px 0px 5px #02027f;
-    -moz-box-shadow: inset 0px 0px 5px #02027f;
-    box-shadow: inset 0px 0px 5px #02027f;
+    -webkit-box-shadow: inset 0px 0px 5px #04045c;
+    -moz-box-shadow: inset 0px 0px 5px #04045c;
+    box-shadow: inset 0px 0px 5px #04045c;
     outline: none;
 }
 
@@ -47,7 +47,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-    background-color: #030346;
+    background-color: #00001a;
     height: 125px;
     
 }
@@ -107,13 +107,13 @@
 /* index ini */
 
 .botonNavIndex{
-    background-color: #030361;
+    background-color: #030346;
     border-radius: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    -webkit-box-shadow: inset 0px 0px 5px #02027f;
-    -moz-box-shadow: inset 0px 0px 5px #02027f;
-    box-shadow: inset 0px 0px 5px #02027f;
+    -webkit-box-shadow: inset 0px 0px 5px #04045c;
+    -moz-box-shadow: inset 0px 0px 5px #04045c;
+    box-shadow: inset 0px 0px 5px #04045c;
     outline: none;
 
 }
@@ -157,7 +157,7 @@
 
 .secvid--video{
     width: 100%;
-    height: 400px;
+    height: 450px;
 }
 
 .espacioEntreContainers{
@@ -172,13 +172,13 @@
 /* articulos */
 
 .botonNavArticulos{
-    background-color: #030361;
+    background-color: #030346;
     border-radius: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    -webkit-box-shadow: inset 0px 0px 5px #02027f;
-    -moz-box-shadow: inset 0px 0px 5px #02027f;
-    box-shadow: inset 0px 0px 5px #02027f;
+    -webkit-box-shadow: inset 0px 0px 5px #04045c;
+    -moz-box-shadow: inset 0px 0px 5px #04045c;
+    box-shadow: inset 0px 0px 5px #04045c;
     outline: none;
 }
 
@@ -189,6 +189,11 @@
 .imagenArt{
     width: 100%;
     height: 450px;
+}
+@media (max-width:500px ){
+    .imagenArt{
+        height: 250px;
+    }
 }
 .serchbar{
     height: 50px;
@@ -209,18 +214,17 @@
     }
 }
 
-
 /* articulos fin */
 
 /* contacto */
 .botonNavContacto{
-    background-color: #030361;
+    background-color: #030346;
     border-radius: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    -webkit-box-shadow: inset 0px 0px 5px #02027f;
-    -moz-box-shadow: inset 0px 0px 5px #02027f;
-    box-shadow: inset 0px 0px 5px #02027f;
+    -webkit-box-shadow: inset 0px 0px 5px #04045c;
+    -moz-box-shadow: inset 0px 0px 5px #04045c;
+    box-shadow: inset 0px 0px 5px #04045c;
     outline: none;
 }
 
