@@ -166,6 +166,9 @@
     font-weight: bold;
 }
 
+.fondoBlanco{
+    background-color: aliceblue;
+}
 /* colores titulo princ */
 .color1 {
     color: rgb(255, 38, 0);
