@@ -1,304 +1,375 @@
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .fondo {
-    background-image: linear-gradient(to left top, #6A6DEC, #8F5FD7, #A652BF, #8F5FD7, #6A6DEC);
+  background-image: linear-gradient(to left top, #6A6DEC, #8F5FD7, #A652BF, #8F5FD7, #6A6DEC);
 }
 
 /* navbar */
 .navbar {
-    background-color: #00001a;
-    color: aliceblue !important;
-    /* no supe como cambiarle el color a las letras del nav si la tag important*/
-
+  background-color: #00001a;
+  color: aliceblue !important;
+  /* no supe como cambiarle el color a las letras del nav si la tag important*/
 }
 
 .navbar a {
-    color: aliceblue !important;
-    /* lo mismo */
-
+  color: aliceblue !important;
+  /* lo mismo */
 }
 
 /* animaciones nav */
 .botonNav:hover {
-    background-color: #030346;
-    border-radius: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-    transform: scale(125%);
+  background-color: #030346;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transform: scale(125%);
 }
 
 .botonNav:active {
-    -webkit-box-shadow: inset 0px 0px 5px #04045c;
-    -moz-box-shadow: inset 0px 0px 5px #04045c;
-    box-shadow: inset 0px 0px 5px #04045c;
-    outline: none;
+  -webkit-box-shadow: inset 0px 0px 5px #04045c;
+  -moz-box-shadow: inset 0px 0px 5px #04045c;
+  box-shadow: inset 0px 0px 5px #04045c;
+  outline: none;
 }
 
 .cart {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .cart:hover {
-    transform: scale(125%);
+  transform: scale(125%);
 }
 
 /* fin animaciones nav */
-
 /* poner elemntos en el nav bar en linea */
 .nabvarContainer1 ul {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .separar {
-    padding: 15px;
+  padding: 15px;
 }
 
 /* navbar fin */
-
 /* footer */
-
 .footerContainer {
-    font-size: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #00001a;
-    height: 125px;
-
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00001a;
+  height: 125px;
 }
 
 .subir {
-    background-color: rgb(68, 8, 181);
-    color: rgb(12, 197, 225);
-    flex-direction: flex;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    font-size: 25px;
-    margin-right: 10px;
-    border-color: rgb(12, 197, 225);
-    border-style: solid;
-    text-decoration: none;
-
+  background-color: rgb(68, 8, 181);
+  color: rgb(12, 197, 225);
+  flex-direction: flex;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 10px;
+  border-color: rgb(12, 197, 225);
+  border-style: solid;
+  text-decoration: none;
 }
 
 .footerContainer .subir {
-    color: rgb(9, 177, 203)
+  color: rgb(9, 177, 203);
 }
 
 .footerContainer .facebook {
-    text-decoration: none;
-    color: #3b5998;
-    text-shadow: 1px 2px 2px black;
-
+  text-decoration: none;
+  color: #3b5998;
+  text-shadow: 1px 2px 2px black;
 }
 
 .footerContainer .insta {
-    text-decoration: none;
-    color: rgb(12, 197, 225);
-    text-shadow: 1px 2px 2px black;
+  text-decoration: none;
+  color: rgb(12, 197, 225);
+  text-shadow: 1px 2px 2px black;
 }
 
-.footerContainer .fa-whatsapp {
-    color: rgb(18, 140, 126);
-    text-shadow: 1px 2px 2px black;
-    text-decoration: none;
+.footerContainer .fa-whatsapp .fa-whatsapp {
+  color: rgb(18, 140, 126);
+  text-shadow: 1px 2px 2px black;
+  text-decoration: none;
 }
 
 /* animaciones footer */
-
 .fa-instagram:hover {
-    transform: scale(125%);
+  transform: scale(125%);
 }
 
 .fa-whatsapp:hover {
-    transform: scale(125%);
+  transform: scale(125%);
 }
 
 .fa-facebook:hover {
-    transform: scale(125%);
+  transform: scale(125%);
 }
 
 .subir:hover {
-    transform: scale(125%);
+  transform: scale(125%);
 }
 
 /* fin footer */
-
-/* footer fin*/
-
 /* index ini */
-
 .botonNavIndex {
-    background-color: #030346;
-    border-radius: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-    -webkit-box-shadow: inset 0px 0px 5px #04045c;
-    -moz-box-shadow: inset 0px 0px 5px #04045c;
-    box-shadow: inset 0px 0px 5px #04045c;
-    outline: none;
-
+  background-color: #030346;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-box-shadow: inset 0px 0px 5px #04045c;
+  -moz-box-shadow: inset 0px 0px 5px #04045c;
+  box-shadow: inset 0px 0px 5px #04045c;
+  outline: none;
 }
 
 .espacioHeaderJumbo {
-    height: 10px;
-
+  height: 10px;
 }
 
 .jumbotronIndex {
-    background-image: url(../img/tiendadepor.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 450px;
-    color: aliceblue;
-    text-shadow: 1px 2px black;
-    border-radius: 0px;
+  background-image: url(../img/tiendadepor.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  color: aliceblue;
+  text-shadow: 1px 2px black;
+  border-radius: 0px;
 }
 
 .tituloPrincipal {
-    letter-spacing: 2px;
-    font-weight: bold;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
-.fondoBlanco{
-    background-color: aliceblue;
+.fondoBlanco {
+  background-color: aliceblue;
 }
+
 /* colores titulo princ */
 .color1 {
-    color: rgb(255, 38, 0);
+  color: rgb(255, 38, 0);
 }
 
 .color2 {
-    color: rgb(74, 235, 130);
+  color: rgb(74, 235, 130);
 }
 
 .color3 {
-    color: rgb(33, 22, 234);
+  color: rgb(33, 22, 234);
 }
 
 /* separador */
 .separacionJumbo {
-    color: black;
+  color: black;
 }
 
 /* ajuste tamaño imagen card */
 .card-img-top {
-    height: 300px;
-    width: 100%;
+  height: 300px;
+  width: 100%;
 }
 
 /* ajuste tamaño video */
 .secvid--video {
-    width: 100%;
-    height: 450px;
+  width: 100%;
+  height: 450px;
 }
 
 /* separador */
 .espacioEntreContainers {
-    height: 150px;
+  height: 150px;
 }
 
 /* color letra */
 .letraIndex {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .mapa {
-    width: 100%;
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 /* ajuste tamaño imagen */
 .imagenIndex {
-    width: 100%;
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 /* index fin */
-
 /* articulos */
-
 .botonNavArticulos {
-    background-color: #030346;
-    border-radius: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-    -webkit-box-shadow: inset 0px 0px 5px #04045c;
-    -moz-box-shadow: inset 0px 0px 5px #04045c;
-    box-shadow: inset 0px 0px 5px #04045c;
-    outline: none;
+  background-color: #030346;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-box-shadow: inset 0px 0px 5px #04045c;
+  -moz-box-shadow: inset 0px 0px 5px #04045c;
+  box-shadow: inset 0px 0px 5px #04045c;
+  outline: none;
 }
 
 .separarLasFilas {
-    height: 200px;
+  height: 200px;
 }
 
 .imagenArt {
-    width: 100%;
-    height: 450px;
+  width: 100%;
+  height: 450px;
 }
 
 /* achicar el banner en mobile */
-@media (max-width:500px) {
-    .imagenArt {
-        height: 250px;
-    }
+@media (max-width: 500px) {
+  .imagenArt {
+    height: 250px;
+  }
 }
-
 .serchbar {
-    height: 50px;
+  height: 50px;
 }
 
 .paginacion {
-    display: flex;
-    align-content: center;
+  display: flex;
+  align-content: center;
 }
 
 /* cambiar color boton prev y next  */
 .carousel-control-next,
 .carousel-control-prev {
-    filter: invert(100%);
+  filter: invert(100%);
 }
 
 /* ajuste tamaño imagenes */
 .imagen1 {
-    width: 100%;
-    max-width: 100%;
-    height: 300px;
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
 }
 
 .carrito {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .imagenArticulos {
-    width: 100%;
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 /* articulos fin */
-
 /* contacto */
 .botonNavContacto {
-    background-color: #030346;
-    border-radius: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-    -webkit-box-shadow: inset 0px 0px 5px #04045c;
-    -moz-box-shadow: inset 0px 0px 5px #04045c;
-    box-shadow: inset 0px 0px 5px #04045c;
-    outline: none;
+  background-color: #030346;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-box-shadow: inset 0px 0px 5px #04045c;
+  -moz-box-shadow: inset 0px 0px 5px #04045c;
+  box-shadow: inset 0px 0px 5px #04045c;
+  outline: none;
 }
 
 .colorTextoContacto {
-    color: aliceblue;
+  color: aliceblue;
 }
 
-
 /* contacto fin */
+/* index ini */
+.botonNavIndex {
+  background-color: #030346;
+  border-radius: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-box-shadow: inset 0px 0px 5px #04045c;
+  -moz-box-shadow: inset 0px 0px 5px #04045c;
+  box-shadow: inset 0px 0px 5px #04045c;
+  outline: none;
+}
+
+.espacioHeaderJumbo {
+  height: 10px;
+}
+
+.jumbotronIndex {
+  background-image: url(../img/tiendadepor.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  color: aliceblue;
+  text-shadow: 1px 2px black;
+  border-radius: 0px;
+}
+
+.tituloPrincipal {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.fondoBlanco {
+  background-color: aliceblue;
+}
+
+/* colores titulo princ */
+.color1 {
+  color: rgb(255, 38, 0);
+}
+
+.color2 {
+  color: rgb(74, 235, 130);
+}
+
+.color3 {
+  color: rgb(33, 22, 234);
+}
+
+/* separador */
+.separacionJumbo {
+  color: black;
+}
+
+/* ajuste tamaño imagen card */
+.card-img-top {
+  height: 300px;
+  width: 100%;
+}
+
+/* ajuste tamaño video */
+.secvid--video {
+  width: 100%;
+  height: 450px;
+}
+
+/* separador */
+.espacioEntreContainers {
+  height: 150px;
+}
+
+/* color letra */
+.letraIndex {
+  color: aliceblue;
+}
+
+.mapa {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* ajuste tamaño imagen */
+.imagenIndex {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* index fin */
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,89 @@
+/* index ini */
+
+.botonNavIndex {
+    background-color: #030346;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-box-shadow: inset 0px 0px 5px #04045c;
+    -moz-box-shadow: inset 0px 0px 5px #04045c;
+    box-shadow: inset 0px 0px 5px #04045c;
+    outline: none;
+
+}
+
+.espacioHeaderJumbo {
+    height: 10px;
+
+}
+
+.jumbotronIndex {
+    background-image: url(../img/tiendadepor.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color:$colorTextoAll;
+    text-shadow: 1px 2px black;
+    border-radius: 0px;
+}
+
+.tituloPrincipal {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fondoBlanco{
+    background-color: $colorTextoAll;
+}
+/* colores titulo princ */
+.color1 {
+    color: $colorTitulo1;
+}
+
+.color2 {
+    color: $colorTitulo2;
+}
+
+.color3 {
+    color: $colorTitulo3;
+}
+
+/* separador */
+.separacionJumbo {
+    color: black;
+}
+
+/* ajuste tamaño imagen card */
+.card-img-top {
+    height: 300px;
+    width: 100%;
+}
+
+/* ajuste tamaño video */
+.secvid--video {
+    width: 100%;
+    height: 450px;
+}
+
+/* separador */
+.espacioEntreContainers {
+    height: 150px;
+}
+
+/* color letra */
+.letraIndex {
+    color: $colorTextoAll;
+}
+
+.mapa {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* ajuste tamaño imagen */
+.imagenIndex {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* index fin */

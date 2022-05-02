@@ -1,0 +1,54 @@
+/* navbar */
+.navbar {
+    background-color: #00001a;
+    color: $colorTextoAll !important;
+    /* no supe como cambiarle el color a las letras del nav si la tag important*/
+
+}
+
+.navbar{
+    a{
+    color: $colorTextoAll !important;
+    /* lo mismo */
+    }
+}
+
+/* animaciones nav */
+.botonNav:hover {
+    background-color: #030346;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transform: scale(125%);
+}
+
+.botonNav:active {
+    -webkit-box-shadow: inset 0px 0px 5px #04045c;
+    -moz-box-shadow: inset 0px 0px 5px #04045c;
+    box-shadow: inset 0px 0px 5px #04045c;
+    outline: none;
+}
+
+.cart {
+    font-size: 30px;
+}
+
+.cart:hover {
+    transform: scale(125%);
+}
+
+/* fin animaciones nav */
+
+/* poner elemntos en el nav bar en linea */
+.nabvarContainer1{
+    ul{
+    display: flex;
+    flex-direction: row;
+    }
+}
+
+.separar {
+    padding: 15px;
+}
+
+/* navbar fin */

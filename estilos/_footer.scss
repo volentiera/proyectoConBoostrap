@@ -1,0 +1,77 @@
+/* footer */
+
+.footerContainer {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00001a;
+    height: 125px;
+
+}
+
+.subir {
+    background-color: rgb(68, 8, 181);
+    color: rgb(12, 197, 225);
+    flex-direction: flex;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 10px;
+    border-color: rgb(12, 197, 225);
+    border-style: solid;
+    text-decoration: none;
+
+}
+
+.footerContainer{
+    .subir {
+    color: rgb(9, 177, 203)
+    }
+}
+
+.footerContainer{
+    .facebook {
+    text-decoration: none;
+    color: #3b5998;
+    text-shadow: 1px 2px 2px black;
+    }
+}
+
+.footerContainer{
+    .insta{
+    text-decoration: none;
+    color: rgb(12, 197, 225);
+    text-shadow: 1px 2px 2px black;
+    }
+}
+
+.footerContainer .fa-whatsapp {
+    .fa-whatsapp {
+    color: rgb(18, 140, 126);
+    text-shadow: 1px 2px 2px black;
+    text-decoration: none;
+    }
+}
+
+/* animaciones footer */
+
+.fa-instagram:hover {
+    transform: scale(125%);
+}
+
+.fa-whatsapp:hover {
+    transform: scale(125%);
+}
+
+.fa-facebook:hover {
+    transform: scale(125%);
+}
+
+.subir:hover {
+    transform: scale(125%);
+}
+
+/* fin footer */

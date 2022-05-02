@@ -1,0 +1,21 @@
+$colorTextoAll: aliceblue;
+$colorTitulo1:rgb(255, 38, 0);
+$colorTitulo2:rgb(74, 235, 130);
+$colorTitulo3:rgb(33, 22, 234);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    background-image: linear-gradient(to left top, #6A6DEC, #8F5FD7, #A652BF, #8F5FD7, #6A6DEC);
+}
+
+
+@import "_header";
+@import "_footer";
+@import "_index";
+@import "_articulos";
+@import "_contacto";
+@import "_index";
