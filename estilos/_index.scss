@@ -18,10 +18,9 @@
 }
 
 .jumbotronIndex {
-    background-image: url(../img/tiendadepor.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 450px;
+    background-color: #121111;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    height: 100%;
     color:$colorTextoAll;
     text-shadow: 1px 2px black;
     border-radius: 0px;
@@ -32,20 +31,15 @@
     font-weight: bold;
 }
 
-.fondoBlanco{
-    background-color: $colorTextoAll;
+.fondoIndex{
+    background-color: #121111;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    height: 100%;
+    color: #F762A7;
+    text-shadow: 1px 1px #cf4b88;
 }
-/* colores titulo princ */
-.color1 {
-    color: $colorTitulo1;
-}
-
-.color2 {
-    color: $colorTitulo2;
-}
-
-.color3 {
-    color: $colorTitulo3;
+.cardSize{
+    height:auto;
 }
 
 /* separador */
@@ -73,6 +67,7 @@
 /* color letra */
 .letraIndex {
     color: $colorTextoAll;
+    text-shadow: 1px 1px #cf4b88;
 }
 
 .mapa {
@@ -85,5 +80,15 @@
     width: 100%;
     max-width: 100%;
 }
-
+.logoSize{
+    width: 80%;
+    height: 100%;
+}
+.botonIndex{
+    background-color: #F762A7;
+    border: none;
+}
+.botonIndex:hover{
+    background-color: #cf4b88;
+}
 /* index fin */

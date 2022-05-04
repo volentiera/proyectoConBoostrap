@@ -17,9 +17,9 @@
 <body>
     <!-- incio header -->
     <header>
-        <nav class="navbar navbar-dark">
+        <nav class="navbar">
             <!-- menu hamburguesa -->
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            <button class="navbar-toggler collapsed align-items-start" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -52,37 +52,39 @@
                 </div>
             </div>
         </nav>
+        <div class="separarNav"></div>
     </header>
     <!-- fin header -->
 
     <!-- incio main -->
     <main class="fondo">
         <!-- separador -->
-        <div class="container espacioHeaderJumbo"></div>
+        <!-- <div class="container espacioHeaderJumbo"></div> -->
         <!-- fin separador -->
-        <div class="container">
             <div class="jumbotron jumbotronIndex shadow-lg p-3 mb-5">
                 <div class="container">
-                    <h1 class="display-4 tituloPrincipal">
-                        <!--colores titulo princ -->
-                        <span class="color1">A</span><span class="color2">l</span><span class="color3">l</span> <span
-                            class="color1">S</span><span class="color2">p</span><span class="color3">o</span><span
-                            class="color1">r</span><span class="color2">t</span><span class="color3">s</span>
-                    </h1>
-                    <p class="lead">Tienda de deportes</p>
-                    <hr class="my-4 separacionJumbo">
-                    <p>Conocé más sobre nosotros:</p>
-                    <!-- futuro boton para otra pag -->
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Sobre Nosotros</a>
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-6 d-flex align-items-center justify-content-center">
+                            <img class="logoSize" src="img/logomejorado.png" alt="">
+                        </div>
+                            <div class="col-4 d-flex flex-column align-items-center justify-content-center">
+                                <h2>Conocé más</h2>
+                                <br>
+                                <!-- futuro boton para otra pag -->
+                                <a class="btn btn-primary btn-lg botonIndex" href="#" role="button">Sobre Nosotros</a>
+                            </div>
+                        <div class="col-1"></div>
+                    </div>
                 </div>
             </div>
-        </div>
+            
         <!-- comienza el contenido de la pag -->
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-5 col-lg-4 colorContainer">
-                    <h2 class="text-center letraIndex p-3">Ofertas Imperdibles</h2>
-                    <div class="card shadow-lg p-3 mb-5">
+                    <div class="card shadow-lg p-3 mb-5 fondoIndex cardSize">
+                        <h2 class="text-center letraIndex">Ofertas Imperdibles</h2>
                         <img src="img/zapatillas.jpg" class="imagenIndex" alt="">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -95,7 +97,7 @@
                 </div>
                 <div class="container col-md-1 col-lg-1"> </div>
                 <div class="col-sm-12 col-md-6 col-lg-7 colorContainer">
-                    <div class="shadow-lg p-3 mb-5 fondoBlanco">
+                    <div class="shadow-lg p-3 mb-5 fondoIndex">
                         <h2 class="text-center">Conoce lo que hacemos:</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut
                             fugit facere at eos
@@ -113,7 +115,7 @@
         <div class="container espacioEntreContainers"></div>
         <div class="container colorContainer">
             <div class="row">
-                <div class="col-sm-12 col-lg-5 bordeConenedores fondoBlanco shadow-lg p-3 mb-5">
+                <div class="col-sm-12 col-lg-5 bordeConenedores fondoIndex shadow-lg p-3 mb-5">
                     <h2 class="text-center">Todo en articulos de deportes.</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ut fugit facere at eos
                         numquam
@@ -122,7 +124,7 @@
                     <img class="d-flex justify-content-center imagenIndex" src="img/imagentienda3.jpg" alt="">
                 </div>
                 <div class="col-2"></div>
-                <div class="col-sm-12 col-lg-5 bordeConenedores shadow-lg p-3 mb-5 fondoBlanco">
+                <div class="col-sm-12 col-lg-5 bordeConenedores shadow-lg p-3 mb-5 fondoIndex">
                     <h2 class="text-center">Encontranos en:</h2>
                     <iframe class="mapa"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.715525143104!2d-58.43446128477088!3d-34.586063980464004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc945173b3dd7%3A0xe8a347bb55df550c!2sCoderhouse!5e0!3m2!1ses-419!2sar!4v1651453460938!5m2!1ses-419!2sar"

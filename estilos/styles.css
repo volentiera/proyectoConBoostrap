@@ -5,24 +5,30 @@
 }
 
 .fondo {
-  background-image: linear-gradient(to left top, #6A6DEC, #8F5FD7, #A652BF, #8F5FD7, #6A6DEC);
+  background-color: #DFDBE5;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 /* navbar */
 .navbar {
-  background-color: #00001a;
-  color: aliceblue !important;
-  /* no supe como cambiarle el color a las letras del nav si la tag important*/
+  background-color: #121111;
+  color: #F762A7;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 .navbar a {
-  color: aliceblue !important;
+  color: #F762A7;
   /* lo mismo */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247,98,167, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* animaciones nav */
 .botonNav:hover {
-  background-color: #030346;
+  background-color: #cf4b88;
+  color: #121111;
   border-radius: 2px;
   padding-left: 5px;
   padding-right: 5px;
@@ -55,6 +61,11 @@
   padding: 15px;
 }
 
+.separarNav {
+  background-color: #F762A7;
+  height: 1px;
+}
+
 /* navbar fin */
 /* footer */
 .footerContainer {
@@ -62,13 +73,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #00001a;
+  background-color: #121111;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
   height: 125px;
 }
 
 .subir {
-  background-color: rgb(68, 8, 181);
-  color: rgb(12, 197, 225);
   flex-direction: flex;
   border-radius: 50%;
   width: 40px;
@@ -76,13 +86,13 @@
   text-align: center;
   font-size: 25px;
   margin-right: 10px;
-  border-color: rgb(12, 197, 225);
+  border-color: #F762A7;
   border-style: solid;
   text-decoration: none;
 }
 
 .footerContainer .subir {
-  color: rgb(9, 177, 203);
+  color: #F762A7;
 }
 
 .footerContainer .facebook {
@@ -97,7 +107,7 @@
   text-shadow: 1px 2px 2px black;
 }
 
-.footerContainer .fa-whatsapp .fa-whatsapp {
+.footerContainer .fa-whatsapp {
   color: rgb(18, 140, 126);
   text-shadow: 1px 2px 2px black;
   text-decoration: none;
@@ -138,11 +148,10 @@
 }
 
 .jumbotronIndex {
-  background-image: url(../img/tiendadepor.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 450px;
-  color: aliceblue;
+  background-color: #121111;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  height: 100%;
+  color: #F762A7;
   text-shadow: 1px 2px black;
   border-radius: 0px;
 }
@@ -152,21 +161,16 @@
   font-weight: bold;
 }
 
-.fondoBlanco {
-  background-color: aliceblue;
+.fondoIndex {
+  background-color: #121111;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  height: 100%;
+  color: #F762A7;
+  text-shadow: 1px 1px #cf4b88;
 }
 
-/* colores titulo princ */
-.color1 {
-  color: rgb(255, 38, 0);
-}
-
-.color2 {
-  color: rgb(74, 235, 130);
-}
-
-.color3 {
-  color: rgb(33, 22, 234);
+.cardSize {
+  height: auto;
 }
 
 /* separador */
@@ -193,7 +197,8 @@
 
 /* color letra */
 .letraIndex {
-  color: aliceblue;
+  color: #F762A7;
+  text-shadow: 1px 1px #cf4b88;
 }
 
 .mapa {
@@ -205,6 +210,20 @@
 .imagenIndex {
   width: 100%;
   max-width: 100%;
+}
+
+.logoSize {
+  width: 80%;
+  height: 100%;
+}
+
+.botonIndex {
+  background-color: #F762A7;
+  border: none;
+}
+
+.botonIndex:hover {
+  background-color: #cf4b88;
 }
 
 /* index fin */
@@ -280,7 +299,7 @@
 }
 
 .colorTextoContacto {
-  color: aliceblue;
+  color: #F762A7;
 }
 
 /* contacto fin */
