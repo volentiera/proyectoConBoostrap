@@ -1,17 +1,27 @@
 /* contacto */
 .botonNavContacto {
-    background-color: #030346;
+    background-color: #F762A7;
     border-radius: 2px;
     padding-left: 5px;
     padding-right: 5px;
-    -webkit-box-shadow: inset 0px 0px 5px #04045c;
-    -moz-box-shadow: inset 0px 0px 5px #04045c;
-    box-shadow: inset 0px 0px 5px #04045c;
+    -webkit-box-shadow: inset 0px 0px 5px #cf4b88;
+    -moz-box-shadow: inset 0px 0px 5px #cf4b88;
+    box-shadow: inset 0px 0px 5px #cf4b88;
     outline: none;
 }
-
+.botonNavContacto{
+    a{
+    color: #121111;
+    text-shadow: 1px 1px #cf4b88;
+    }
+}
 .colorTextoContacto {
     color: $colorTextoAll;
+    text-shadow: 1px 1px #cf4b88;
+}
+.fondoContacto{
+    background-color: #121111;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 /* contacto fin */
