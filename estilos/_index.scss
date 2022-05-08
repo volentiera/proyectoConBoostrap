@@ -26,8 +26,6 @@
     background-color: #121111;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
     height: 100%;
-    color:$colorTextoAll;
-    text-shadow: 1px 2px black;
     border-radius: 0px;
 }
 
@@ -40,8 +38,6 @@
     background-color: #121111;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
     height: 100%;
-    color: #F762A7;
-    text-shadow: 1px 1px #cf4b88;
 }
 .cardSize{
     height:auto;
@@ -69,11 +65,7 @@
     height: 150px;
 }
 
-/* color letra */
-.letraIndex {
-    color: $colorTextoAll;
-    text-shadow: 1px 1px #cf4b88;
-}
+
 
 .mapa {
     width: 100%;
@@ -95,5 +87,9 @@
 }
 .botonIndex:hover{
     background-color: #cf4b88;
+}
+
+.colorTextoIndex{
+    @include colorYSombra($colorTextoAll,1px 1px #cf4b88);
 }
 /* index fin */
