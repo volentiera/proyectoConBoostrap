@@ -28,6 +28,23 @@
     height: 100%;
     border-radius: 0px;
 }
+.bannerIndex{
+    height: 350px;
+}
+.imgBanner{
+    height: 350px;
+    width: 100%;
+}
+/* achicar el banner en mobile */
+@media (max-width:600px) {
+    .bannerIndex{
+        height: 150px;
+    }
+    .imgBanner {
+        height: 150px;
+    }
+
+}
 
 .tituloPrincipal {
     letter-spacing: 2px;

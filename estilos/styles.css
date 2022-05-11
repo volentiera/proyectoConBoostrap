@@ -49,9 +49,19 @@
 
 .cart {
   font-size: 30px;
+  padding: 5px;
 }
 
 .cart:hover {
+  transform: scale(125%);
+}
+
+.search {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.search:hover {
   transform: scale(125%);
 }
 
@@ -164,6 +174,25 @@
   border-radius: 0px;
 }
 
+.bannerIndex {
+  height: 350px;
+}
+
+.imgBanner {
+  height: 350px;
+  width: 100%;
+}
+
+/* achicar el banner en mobile */
+@media (max-width: 600px) {
+  .bannerIndex {
+    height: 150px;
+  }
+
+  .imgBanner {
+    height: 150px;
+  }
+}
 .tituloPrincipal {
   letter-spacing: 2px;
   font-weight: bold;

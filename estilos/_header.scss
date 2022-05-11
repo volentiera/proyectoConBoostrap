@@ -38,9 +38,17 @@
 
 .cart {
     font-size: 30px;
+    padding: 5px;
 }
 
 .cart:hover {
+    transform: scale(125%);
+}
+.search{
+    font-size: 30px;
+    padding: 5px;
+}
+.search:hover {
     transform: scale(125%);
 }
 
