@@ -241,6 +241,55 @@
   max-width: 100%;
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+  .cambioImgMd {
+    height: 225px;
+  }
+
+  .cambioImgMd2 {
+    height: 100px;
+  }
+
+  .imagenIndex {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .cambioImgSm {
+    height: 200px;
+  }
+
+  .cambioImgSm2 {
+    height: 450px;
+  }
+
+  .imagenIndex {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 556px) {
+  .cambioImgSm {
+    height: 125px;
+  }
+
+  .cambioImgSm2 {
+    height: 250px;
+  }
+
+  .imagenIndex {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+.separadorIndex {
+  height: 20px;
+}
+
 .logoSize {
   width: 100%;
   height: 100%;
