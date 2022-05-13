@@ -41,8 +41,6 @@
 }
 
 .botonNav:active {
-  -webkit-box-shadow: inset 0px 0px 5px #121111;
-  -moz-box-shadow: inset 0px 0px 5px #121111;
   box-shadow: inset 0px 0px 5px #121111;
   outline: none;
 }
@@ -152,8 +150,6 @@
   border-radius: 2px;
   padding-left: 5px;
   padding-right: 5px;
-  -webkit-box-shadow: inset 0px 0px 5px #cf4b88;
-  -moz-box-shadow: inset 0px 0px 5px #cf4b88;
   box-shadow: inset 0px 0px 5px #cf4b88;
   outline: none;
 }
@@ -205,24 +201,42 @@
 }
 
 .cardSize {
-  height: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.separadorIndex2 {
+  height: 100px;
+}
+
+@media (min-width: 0px) and (max-width: 992px) {
+  .cartaMedio {
+    display: none;
+  }
+}
+.colorTextoIndex2 {
+  color: aliceblue;
+  text-shadow: 1px 1px #121111;
+}
+
+.imagenIndex2 {
+  height: 100%;
+  width: 100%;
+}
+
+.imagenCardIndex {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.fondoIndex2 {
+  background-color: #00BF4B;
 }
 
 /* separador */
 .separacionJumbo {
   color: black;
-}
-
-/* ajuste tamaño imagen card */
-.card-img-top {
-  height: 300px;
-  width: 100%;
-}
-
-/* ajuste tamaño video */
-.secvid--video {
-  width: 100%;
-  height: 450px;
 }
 
 /* separador */
@@ -316,8 +330,6 @@
   border-radius: 2px;
   padding-left: 5px;
   padding-right: 5px;
-  -webkit-box-shadow: inset 0px 0px 5px #cf4b88;
-  -moz-box-shadow: inset 0px 0px 5px #cf4b88;
   box-shadow: inset 0px 0px 5px #cf4b88;
   outline: none;
 }
@@ -386,8 +398,6 @@
 .fondoBotonArticulos {
   background-color: #F762A7;
   border: 1px #cf4b88 solid;
-  -webkit-box-shadow: 0px 0px 5px black;
-  -moz-box-shadow: 0px 0px 5px black;
   box-shadow: 0px 0px 5px black;
 }
 
@@ -398,8 +408,6 @@
 
 .fondoBotonArticulos:active {
   background-color: #cf4b88;
-  -webkit-box-shadow: 0px 0px 5px #cf4b88;
-  -moz-box-shadow: 0px 0px 5px #cf4b88;
   box-shadow: 0px 0px 5px #cf4b88;
 }
 
@@ -410,8 +418,6 @@
   border-radius: 2px;
   padding-left: 5px;
   padding-right: 5px;
-  -webkit-box-shadow: inset 0px 0px 5px #cf4b88;
-  -moz-box-shadow: inset 0px 0px 5px #cf4b88;
   box-shadow: inset 0px 0px 5px #cf4b88;
   outline: none;
 }
@@ -469,5 +475,12 @@
 }
 
 /* contacto fin */
+.colorTextoSobre {
+  color: #F762A7;
+}
 
-/*# sourceMappingURL=styles.css.map */
+/* ajuste tamaño video */
+.secvid--video {
+  width: 100%;
+  height: 500px;
+}/*# sourceMappingURL=styles.css.map */

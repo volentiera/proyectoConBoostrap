@@ -57,25 +57,43 @@
     height: 100%;
 }
 .cardSize{
-    height:auto;
+    width: 100%;
+    height: 100%;
 }
 
+.separadorIndex2{
+    height: 100px;
+}
+
+@media  (min-width:0px) and (max-width:992px) {
+    .cartaMedio{
+        display: none;
+    }
+}
+.colorTextoIndex2{
+    color: aliceblue;
+    text-shadow:1px 1px #121111;
+}
+.imagenIndex2{
+    height: 100%;
+    width: 100%;
+}
+.imagenCardIndex{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+.fondoIndex2{
+    background-color: #00BF4B;
+
+}
 /* separador */
 .separacionJumbo {
     color: black;
 }
 
-/* ajuste tamaño imagen card */
-.card-img-top {
-    height: 300px;
-    width: 100%;
-}
 
-/* ajuste tamaño video */
-.secvid--video {
-    width: 100%;
-    height: 450px;
-}
+
 
 /* separador */
 .espacioEntreContainers {
