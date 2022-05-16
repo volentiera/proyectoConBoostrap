@@ -10,6 +10,7 @@
 }
 
 /* Aplico mixin para color texto todas las paginas */
+/* imports */
 /* navbar */
 .navbar {
   background-color: #121111;
@@ -97,6 +98,7 @@
   height: fit-content;
 }
 
+/* boton subir*/
 .subir {
   position: fixed;
   bottom: 40px;
@@ -118,7 +120,7 @@
   padding-top: 15px;
 }
 
-footer .subir {
+.subir a {
   color: #F762A7;
 }
 
@@ -212,6 +214,7 @@ footer .subir {
   height: 10px;
 }
 
+/* logo y boton */
 .jumbotronIndex {
   background-color: #121111;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
@@ -219,11 +222,13 @@ footer .subir {
   border-radius: 0px;
 }
 
+/* ajuste imagen logo */
 @media (max-width: 992px) {
   .displayLogo {
     display: none;
   }
 }
+/* banner1 */
 .bannerIndex {
   height: 325px;
 }
@@ -243,11 +248,13 @@ footer .subir {
     height: 150px;
   }
 }
+/* banner2 */
 .bannerIndex2 {
   width: 100%;
   height: 150px;
 }
 
+/* achicar el banner2*/
 @media (max-width: 768px) {
   .bannerIndex2 {
     height: 100px;
@@ -263,11 +270,6 @@ footer .subir {
     height: 60px;
   }
 }
-.tituloPrincipal {
-  letter-spacing: 2px;
-  font-weight: bold;
-}
-
 .paddingSeccion {
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -288,6 +290,7 @@ footer .subir {
   height: 100px;
 }
 
+/* sacar una carta para que entre en pantalla todo al achicar */
 @media (min-width: 0px) and (max-width: 992px) {
   .cartaMedio {
     display: none;
@@ -359,6 +362,8 @@ footer .subir {
 
 /* index fin */
 /* articulos */
+/* inicio nav */
+/* para que quede apretado boton nav*/
 .botonNavArticulos {
   background-color: #F762A7;
   border-radius: 2px;
@@ -373,60 +378,8 @@ footer .subir {
   text-shadow: 1px 1px #cf4b88;
 }
 
-.separarLasFilas {
-  height: 100px;
-}
-
-.imagenArt {
-  width: 100%;
-  height: 450px;
-}
-
-/* achicar el banner en mobile */
-@media (max-width: 500px) {
-  .imagenArt {
-    height: 250px;
-  }
-}
-.serchbar {
-  height: 50px;
-}
-
-.paginacion {
-  display: flex;
-  align-content: center;
-}
-
-/* cambiar color boton prev y next  */
-.carousel-control-next,
-.carousel-control-prev {
-  filter: invert(100%);
-}
-
-/* ajuste tamaño imagenes */
-.imagen1 {
-  width: 100%;
-  max-width: 100%;
-  height: 300px;
-}
-
 .carrito {
   font-size: 20px;
-}
-
-.imagenArticulos {
-  width: 100%;
-  max-width: 100%;
-}
-
-.fondoArticulos {
-  background-color: #121111;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-}
-
-.colorTextoArticulos {
-  color: #F762A7;
-  text-shadow: 1px 1px #cf4b88;
 }
 
 .fondoBotonArticulos {
@@ -445,8 +398,60 @@ footer .subir {
   box-shadow: 0px 0px 5px #cf4b88;
 }
 
+/* fin nav */
+/* separador*/
+.separarLasFilas {
+  height: 100px;
+}
+
+/* imagen banner*/
+.imagenArt {
+  width: 100%;
+  height: 450px;
+}
+
+/* achicar el banner en mobile */
+@media (max-width: 500px) {
+  .imagenArt {
+    height: 250px;
+  }
+}
+.serchbar {
+  height: 50px;
+}
+
+/* cambiar color boton prev y next  */
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+/* ajuste tamaño imagenes cards */
+.imagen1 {
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
+}
+
+/* ajuste tamaño imagenes pagos */
+.imagenArticulos {
+  width: 100%;
+  max-width: 100%;
+}
+
+.fondoArticulos {
+  background-color: #121111;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.colorTextoArticulos {
+  color: #F762A7;
+  text-shadow: 1px 1px #cf4b88;
+}
+
 /* articulos fin */
 /* contacto */
+/* incio nav*/
 .botonNavContacto {
   background-color: #F762A7;
   border-radius: 2px;
@@ -461,6 +466,7 @@ footer .subir {
   text-shadow: 1px 1px #cf4b88;
 }
 
+/* fin nav*/
 .colorTextoContacto {
   color: #F762A7;
   text-shadow: 1px 1px #cf4b88;
@@ -545,6 +551,7 @@ footer .subir {
   height: 50px;
 }
 
+/* ajuste imagen*/
 .imgCarrito {
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -552,6 +559,7 @@ footer .subir {
   width: 100%;
 }
 
+/* fondo para parte1 carrito*/
 .fondoCarrito {
   background-color: aliceblue;
   border-radius: 10px;
@@ -568,6 +576,7 @@ footer .subir {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
+/* fondo para parte2 carrito*/
 .fondoCarrito2 {
   background-color: rgb(150, 151, 154);
   border-radius: 10px;
@@ -581,6 +590,7 @@ footer .subir {
   padding: 20px;
 }
 
+/* cambio para vista mobile*/
 @media (max-width: 576px) {
   .displayCart {
     display: flex;

@@ -21,18 +21,20 @@
     height: 10px;
 
 }
-
+/* logo y boton */
 .jumbotronIndex {
     background-color: #121111;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
     height: 100%;
     border-radius: 0px;
 }
+/* ajuste imagen logo */
 @media (max-width:992px) {
         .displayLogo{
             display: none;
         }
 }
+/* banner1 */
 .bannerIndex{
     height: 325px;
 }
@@ -50,10 +52,12 @@
     }
 
 }
+/* banner2 */
 .bannerIndex2{
     width: 100%;
     height: 150px;
 }
+/* achicar el banner2*/
 @media (max-width:768px) {
     .bannerIndex2{
         height: 100px;
@@ -70,10 +74,6 @@
     }
 }
 
-.tituloPrincipal {
-    letter-spacing: 2px;
-    font-weight: bold;
-}
 .paddingSeccion{
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -91,7 +91,7 @@
 .separadorIndex2{
     height: 100px;
 }
-
+/* sacar una carta para que entre en pantalla todo al achicar */
 @media  (min-width:0px) and (max-width:992px) {
     .cartaMedio{
         display: none;
