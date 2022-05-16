@@ -28,6 +28,11 @@
     height: 100%;
     border-radius: 0px;
 }
+@media (max-width:992px) {
+        .displayLogo{
+            display: none;
+        }
+}
 .bannerIndex{
     height: 325px;
 }
@@ -45,12 +50,34 @@
     }
 
 }
+.bannerIndex2{
+    width: 100%;
+    height: 150px;
+}
+@media (max-width:768px) {
+    .bannerIndex2{
+        height: 100px;
+    }
+}
+@media (max-width:576px) {
+    .bannerIndex2{
+        height: 80px;
+    }
+}
+@media (max-width:450px) {
+    .bannerIndex2{
+        height: 60px;
+    }
+}
 
 .tituloPrincipal {
     letter-spacing: 2px;
     font-weight: bold;
 }
-
+.paddingSeccion{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 .fondoIndex{
     background-color: #121111;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
@@ -72,6 +99,7 @@
 }
 .colorTextoIndex2{
     @include colorYSombra($colorTextoAll,1px 1px #cf4b88);
+    
 }
 .imagenIndex2{
     height: 100%;
@@ -120,5 +148,10 @@
 .colorTextoIndex{
     @include colorYSombra($colorTextoAll,1px 1px #cf4b88);
 }
-
+.sizeTitle{
+    font-size: 60px;
+}
+.separadorIndex3{
+    height: 50px;
+}
 /* index fin */

@@ -1,0 +1,43 @@
+.separadorCart{
+    height: 50px;
+}
+.imgCarrito{
+    height: fit-content;
+    width: 100%;
+}
+.fondoCarrito{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.paddingCart{
+    padding: 40px;
+}
+.fondoCarritoTitulo{
+    @include colorYSombra($colorTextoAll,1px 1px #cf4b88);
+    background-color: #121111;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+.fondoCarrito2{
+    background-color: rgb(150, 151, 154);
+    border-radius: 10px;
+}
+.paddingCart2{
+    padding-top: 15px;
+}
+.paddingCartTitulo{
+    padding: 20px;
+}
+@media (max-width: 576px) {
+    .displayCart {
+        display: flex;
+        flex-direction: column;
+        text-align: center !important;
+        padding: 10px;
+        
+    }
+    .imgCarrito{
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+    }
+}

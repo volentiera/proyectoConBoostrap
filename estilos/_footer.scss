@@ -106,16 +106,7 @@ footer{
     text-align: start;
 }
 
-@media (max-width:500px) {
-    .displayFooter{
-        display: none;
-    }
-}
-@media (min-width:500px){
-    .displayFooter2{
-        display: none;
-    }
-}
+
 .paddingFooter{
     padding-right: 65px;
 }

@@ -10,3 +10,19 @@
     width: 100%;
     max-width: 100%;
 }
+.botonNavSobre {
+    background-color: #F762A7;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-box-shadow: inset 0px 0px 5px #cf4b88;
+    -moz-box-shadow: inset 0px 0px 5px #cf4b88;
+    box-shadow: inset 0px 0px 5px #cf4b88;
+    outline: none;
+}
+.botonNavSobre{
+    a{
+    color: #121111;
+    text-shadow: 1px 1px #cf4b88;
+    }
+}
