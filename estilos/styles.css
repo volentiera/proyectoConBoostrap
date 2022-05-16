@@ -481,27 +481,30 @@ footer .subir {
 
 /* Aplico mapa */
 .--img1 {
-  background-image: url(../img/zapatillas.jpg);
+  background-image: url(../img/avatarm2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
   height: 300px;
+  background-color: aliceblue;
 }
 
 .--img2 {
-  background-image: url(../img/pelotaf.webp);
+  background-image: url(../img/avatarf2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
   height: 300px;
+  background-color: aliceblue;
 }
 
 .--img3 {
-  background-image: url(../img/basket.png);
+  background-image: url(../img/avatarm2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
   height: 300px;
+  background-color: aliceblue;
 }
 
 .separador {
