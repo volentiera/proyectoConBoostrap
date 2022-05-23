@@ -51,9 +51,23 @@
 }
 
 /* imagen banner*/
-.imagenArt {
+/* banner1 */
+.bannerArt{
+    height: 325px;
+}
+.imgBanner{
+    height: 300px;
     width: 100%;
-    height: 450px;
+}
+/* achicar el banner en mobile */
+@media (max-width:700px) {
+    .bannerArt{
+        height: 150px;
+    }
+    .imgBanner {
+        height: 150px;
+    }
+
 }
 
 /* achicar el banner en mobile */
@@ -78,12 +92,19 @@
 .imagen1 {
     width: 100%;
     max-width: 100%;
-    height: 300px;
+    height: 250px;
 }
+.contenedorCardArt{
+    border-radius: 10px;
+}
+
 /* ajuste tamaño imagenes pagos */
 .imagenArticulos {
     width: 100%;
     max-width: 100%;
+}
+.fondoCardArt{
+    background-color: aliceblue;
 }
 .fondoArticulos{
     background-color: #121111;
