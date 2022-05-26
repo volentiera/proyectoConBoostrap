@@ -26,3 +26,39 @@
     text-shadow: 1px 1px #cf4b88;
     }
 }
+.redes{
+    text-decoration: none;
+    font-size: 100px;
+    
+}
+.wap{
+    color: #128c7e;
+}
+.fb{
+    color: #1877f2;
+}
+.tw{
+    color: #1da1f2;
+}
+.insta{
+    color: #833ab4;
+}
+.redes:hover{
+    transform: scale(100%);
+    opacity: 70%;
+}
+@media  (min-width:576px) and (max-width:768px) {
+    .displayBotones2{
+        left: 12px;
+    }
+}
+@media  (min-width:768px) and (max-width:992px) {
+    .displayBotones2{
+        left: 30px;
+    }
+}
+@media  (width:992px) {
+    .displayBotones2{
+        left: 0px;
+    }
+}

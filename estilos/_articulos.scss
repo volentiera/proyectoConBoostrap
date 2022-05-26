@@ -92,7 +92,7 @@
 .imagen1 {
     width: 100%;
     max-width: 100%;
-    height: 250px;
+    height: 100%;
 }
 .contenedorCardArt{
     border-radius: 10px;
@@ -113,6 +113,16 @@
 .colorTextoArticulos {
     @include colorYSombra($colorTextoAll,1px 1px #cf4b88);
 }
-
+.colorEstrellas{
+    color: gold;
+}
+.botonArticulos{
+    background-color: #F762A7;
+    color: aliceblue;
+}
+.botonArticulos:hover{
+    opacity: 80%;
+    color: aliceblue;
+}
 
 /* articulos fin */

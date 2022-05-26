@@ -257,26 +257,19 @@
   width: 100%;
 }
 
-/* banner2 */
-.bannerIndex2 {
-  width: 100%;
-  height: 150px;
-}
-
-/* achicar el banner2*/
-@media (max-width: 768px) {
-  .bannerIndex2 {
-    height: 100px;
+@media (min-width: 650px) and (max-width: 768px) {
+  .displayBotones {
+    left: 30px;
   }
 }
-@media (max-width: 576px) {
-  .bannerIndex2 {
-    height: 80px;
+@media (min-width: 576px) and (max-width: 650px) {
+  .displayBotones {
+    left: 20px;
   }
 }
-@media (max-width: 450px) {
-  .bannerIndex2 {
-    height: 60px;
+@media (min-width: 768px) and (max-width: 992px) {
+  .displayBotones {
+    left: 45px;
   }
 }
 .fondoIndex {
@@ -425,9 +418,19 @@
 }
 
 .sizeTitle {
-  font-size: 60px;
+  font-size: 80px;
 }
 
+@media (max-width: 660px) {
+  .sizeTitle {
+    font-size: 50px;
+  }
+}
+@media (max-width: 412px) {
+  .sizeTitle {
+    font-size: 40px;
+  }
+}
 .separadorIndex3 {
   height: 50px;
 }
@@ -436,7 +439,269 @@
   height: 25px;
 }
 
-/* index fin */
+/* carousel */
+.carouselIndex {
+  margin: 50px auto;
+  padding: 0 70px;
+}
+
+.carouselIndex .carousel-item {
+  min-height: 330px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.carouselIndex .carousel-item .img-box {
+  height: 160px;
+  width: 100%;
+  position: relative;
+}
+
+.carouselIndex .carousel-item img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.carouselIndex .carousel-item h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.carouselIndex .carousel-item .btn {
+  color: #333;
+  border-radius: 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: none;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-top: 5px;
+  line-height: 16px;
+}
+
+.carouselIndex .carousel-item .btn:hover, .carouselIndex .carousel-item .btn:focus {
+  color: #fff;
+  background: #F762A7;
+  border-color: #000;
+  box-shadow: none;
+}
+
+.carouselIndex .carousel-item .btn i {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.carouselIndex .contenedorCard {
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+  height: 360px;
+}
+
+.carouselIndex .paddingCard {
+  padding: 10px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  height: 100px;
+  width: 40px;
+  background: none;
+  margin: auto 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  margin: -16px 0 0 0;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.carousel-control-prev i {
+  margin-left: -3px;
+}
+
+.carousel-control-next i {
+  margin-right: -3px;
+}
+
+.carouselIndex .item-price {
+  font-size: 13px;
+  padding: 2px 0;
+}
+
+.carouselIndex .item-price strike {
+  color: #999;
+  margin-right: 5px;
+}
+
+.carouselIndex .item-price span {
+  color: #86bd57;
+  font-size: 110%;
+}
+
+.carouselIndex .carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+  border-radius: 50%;
+  border-color: transparent;
+  border: none;
+}
+
+.carousel-indicators li {
+  background: aliceblue;
+}
+
+.carousel-indicators li.active {
+  background: aliceblue;
+}
+
+.star-rating li {
+  padding: 0;
+}
+
+.star-rating i {
+  font-size: 14px;
+  color: #ffc000;
+}
+
+.ulCards {
+  list-style-type: none;
+}
+
+@media (max-width: 776px) {
+  .displayCardIndex {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .displayCardIndex2 {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .displayImgIndex {
+    display: none;
+  }
+}
+.botonIndex2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.botonIndex2 {
+  width: 12rem;
+  height: auto;
+}
+
+.botonIndex2 .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #F762A7;
+  border-radius: 1.625rem;
+}
+
+.botonIndex2 .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+.botonIndex2 .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+.botonIndex2 .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+.botonIndex2 .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #cf4b88;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.botonIndex2:hover .circle {
+  width: 100%;
+}
+
+.botonIndex2:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+.botonIndex2:hover .button-text {
+  color: aliceblue;
+}
+
+@media (max-width: 992px) {
+  .displayBotones3 {
+    display: none;
+  }
+}
+@media (width: 992px) {
+  .displayBotones3 {
+    display: initial;
+  }
+}
 /* articulos */
 /* inicio nav */
 /* para que quede apretado boton nav*/
@@ -521,7 +786,7 @@
 .imagen1 {
   width: 100%;
   max-width: 100%;
-  height: 250px;
+  height: 100%;
 }
 
 .contenedorCardArt {
@@ -546,6 +811,20 @@
 .colorTextoArticulos {
   color: #F762A7;
   text-shadow: 1px 1px #cf4b88;
+}
+
+.colorEstrellas {
+  color: gold;
+}
+
+.botonArticulos {
+  background-color: #F762A7;
+  color: aliceblue;
+}
+
+.botonArticulos:hover {
+  opacity: 80%;
+  color: aliceblue;
 }
 
 /* articulos fin */
@@ -656,6 +935,47 @@
   text-shadow: 1px 1px #cf4b88;
 }
 
+.redes {
+  text-decoration: none;
+  font-size: 100px;
+}
+
+.wap {
+  color: #128c7e;
+}
+
+.fb {
+  color: #1877f2;
+}
+
+.tw {
+  color: #1da1f2;
+}
+
+.insta {
+  color: #833ab4;
+}
+
+.redes:hover {
+  transform: scale(100%);
+  opacity: 70%;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .displayBotones2 {
+    left: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .displayBotones2 {
+    left: 30px;
+  }
+}
+@media (width: 992px) {
+  .displayBotones2 {
+    left: 0px;
+  }
+}
 .separadorCart {
   height: 50px;
 }

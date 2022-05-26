@@ -98,7 +98,8 @@
                     <div class="col-12 col-sm-8 col-md-7 col-lg-6 d-flex align-items-center justify-content-center">
                         <img class="logoSize" src="img/logomejorado.png" alt="">
                     </div>
-                    <div class="col-sm-4 col-md-5 col-lg-6 d-flex flex-column align-items-center justify-content-center displayLogo">
+                    <div
+                        class="col-sm-4 col-md-5 col-lg-6 d-flex flex-column align-items-center justify-content-center displayLogo">
                         <h2 class="colorTextoIndex">Conocé más</h2>
                         <br>
                         <a class="botonIndex" href="paginas/sobre.html" role="button">Sobre
@@ -109,91 +110,307 @@
             </div>
         </div>
         <!-- Botones Index -->
-            <div class="container-fluid botoneraIndex">
-                <div class="separar"></div>
-                <div class="row">
-                    <div class="col bordeBotones m-3 btn">
-                        <a class="text-decoration-none" href="paginas/articulos.html">
+        <div class="container-fluid botoneraIndex">
+            <div class="separar"></div>
+            <div class="row">
+
+                <div class="col-sm-5 col-md-5 col-lg bordeBotones m-3 btn displayBotones">
+                    <a class="text-decoration-none" href="paginas/articulos.html">
                         <div>
                             <h3 class="text-center colorTextoIndex2">Adultos</h3>
                         </div>
                         <div>
                             <img class="sizeImgBotones" src="img/gente.svg" alt="">
                         </div>
-                        </a>
-                    </div>
-                    <div class="col bordeBotones m-3 btn">
-                        <a class="text-decoration-none" href="paginas/articulos.html">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-md-5 col-lg bordeBotones m-3 btn displayBotones">
+                    <a class="text-decoration-none" href="paginas/articulos.html">
                         <div>
                             <h3 class="text-center colorTextoIndex2">Niños</h3>
                         </div>
                         <div>
                             <img class="sizeImgBotones" src="img/chicos.svg" alt="">
                         </div>
-                        </a>
-                    </div>
-                    <div class="col bordeBotones m-3 btn">
-                        <a class="text-decoration-none" href="paginas/articulos.html">
-                            <div>
-                                <h3 class="text-center colorTextoIndex2">Lo más Solicitado</h3>
-                            </div>
-                            <div>
-                                <img class="sizeImgBotones" src="img/popular.svg" alt="">
-                            </div>
-                            </a>
-                    </div>
-                    <div class="col bordeBotones m-3 btn">
-                        <a class="text-decoration-none" href="paginas/articulos.html">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-md-5 col-lg bordeBotones m-3 btn displayBotones">
+                    <a class="text-decoration-none" href="paginas/articulos.html">
+                        <div>
+                            <h3 class="text-center colorTextoIndex2">Lo más Solicitado</h3>
+                        </div>
+                        <div>
+                            <img class="sizeImgBotones" src="img/popular.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-5 col-md-5 col-md col-lg bordeBotones m-3 btn displayBotones">
+                    <a class="text-decoration-none" href="paginas/articulos.html">
                         <div>
                             <h3 class="text-center colorTextoIndex2">Ofertas</h3>
                         </div>
                         <div>
                             <img class="sizeImgBotones" src="img/offertas.svg" alt="">
                         </div>
-                    </div>
-                    </a>
                 </div>
-                <div class="separar"></div>
+                </a>
             </div>
+            <div class="separar"></div>
+        </div>
         <!-- seccion index1 -->
         <div class="jumbotron fondoIndex radiusIndex">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 text-center colorTextoIndex">
-                        <h2 class="sizeTitle">Futbol!</h2>
+                        <h2 class="sizeTitle">Ofertas: Futbol!</h2>
                     </div>
                     <div class="col-12 separadorIndex2"></div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-12 col-xl-5">
                         <img class="imagenIndex2" src="img/Futbol.svg" alt="">
                     </div>
-                    <div class="col-lg-6 cardSize d-flex justify-content-between">
-                        <div class="row d-flex justify-content-between">
-                            <div class="col-lg-12 separadorIndex"></div>
-                            <div class="col-5 col-sm-5 col-md-5 col-lg-3 card shadow-lg p-3 mb-5">
-                                <img src="img/zapatillas.jpg" class="imagenCardIndex" alt="">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="col-md-12 col-lg-12 col-xl-7">
+                        <div id="myCarousel" class="carousel carouselIndex slide" data-ride="carousel"
+                            data-interval="0">
+                            <!-- Carousel indicadores -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <!-- contenedor carousel items -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/CamisetaRiver.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Camiseta River</h4>
+                                                    <p class="item-price"><strike>$6.000</strike> <span>$4.890</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/zapatillas.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Zapatillas Puma</h4>
+                                                    <p class="item-price"><strike>$8.000</strike> <span>$6.500</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex2">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/botines.jpg"
+                                                        class="img-fluid" alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Botines Reves</h4>
+                                                    <p class="item-price"><strike>$7.250</strike> <span>$6.900</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-stroke"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/CamisetaBoca.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Camiseta Boca</h4>
+                                                    <p class="item-price"><strike>$4.500</strike> <span>$3.900</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-stroke"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/botines2.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Botines Addidas</h4>
+                                                    <p class="item-price"><strike>$12.000</strike> <span>$9.860</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-stroke"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex2">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/botines3.jpg"
+                                                        class="img-fluid" alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Botines Kappa</h4>
+                                                    <p class="item-price"><strike>$6.800</strike> <span>$6.300</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/botines4.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Addidas Predator</h4>
+                                                    <p class="item-price"><strike>$18.000</strike> <span>$16.500</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/short.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Short Reusch</h4>
+                                                    <p class="item-price"><strike>$2.500</strike> <span>$2.050</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-stroke"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex2">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/pelota.jpg"
+                                                        class="img-fluid" alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Pelota Puma</h4>
+                                                    <p class="item-price"><strike>$2.500</strike> <span>$1.990</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="d-none d-sm-none d-md-none col-lg-1"></div>
-                            <div class="col-lg-3 card shadow-lg p-3 mb-5 cartaMedio">
-                                <img src="img/zapatillas.jpg" class="imagenCardIndex" alt="">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Botines Puma</p>
-                                <a href="#" class="btn btn-primary">$15000</a>
-                            </div>
-                            <div class="d-none d-sm-none d-md-none col-lg-1"></div>
-                            <div class="col-5 col-sm-5 col-md-5 col-lg-3 card shadow-lg p-3 mb-5">
-                                <img src="img/zapatillas.jpg" class="imagenCardIndex" alt="">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-
                         </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
                     </div>
-                    <div class="col-lg-12 separadorIndex3"></div>
                 </div>
+                <div class="col-lg-12 separadorIndex3"></div>
             </div>
         </div>
         <div class="separadorIndex3"></div>
@@ -202,40 +419,297 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 text-center colorTextoIndex">
-                        <h2 class="sizeTitle">Tennis!</h2>
+                        <h2 class="sizeTitle">Ofertas: Tennis!</h2>
                     </div>
                     <div class="col-12 separadorIndex2"></div>
-                    <div class="col-lg-6 cardSize d-flex justify-content-between order-2 order-lg-1">
-                        <div class="row d-flex justify-content-between">
-                            <div class="col-lg-12 separadorIndex"></div>
-                            <div class="col-5 col-sm-5 col-md-5 col-lg-3 card shadow-lg p-3 mb-5">
-                                <img src="img/raqueta.webp" class="imagenCardIndex" alt="">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                            <div class="d-none d-sm-none d-md-none col-lg-1"></div>
-                            <div class="col-lg-3 card shadow-lg p-3 mb-5 cartaMedio">
-                                <img src="img/raqueta.webp" class="imagenCardIndex" alt="">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Botines Puma</p>
-                                <a href="#" class="btn btn-primary">$15000</a>
-                            </div>
-                            <div class="d-none d-sm-none d-md-none col-lg-1"></div>
-                            <div class="col-5 col-sm-5 col-md-5 col-lg-3 card shadow-lg p-3 mb-5">
-                                <img src="img/raqueta.webp" class="imagenCardIndex" alt="">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="col-md-12 col-lg-12 col-xl-7 order-2 order-1">
+                        <div id="myCarousel2" class="carousel carouselIndex slide" data-ride="carousel"
+                            data-interval="0">
+                            <!-- Carousel indicadores -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel2" data-slide-to="1"></li>
+                                <li data-target="#myCarousel2" data-slide-to="2"></li>
+                            </ol>
+                            <!-- contenedor carousel items -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/pelotatenis.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Pelotas Head</h4>
+                                                    <p class="item-price"><strike>$900</strike> <span>$760</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/bolso.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Bolso Wilson</h4>
+                                                    <p class="item-price"><strike>$12.000</strike> <span>$11.690</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex2">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/zapatillastenistopper.jpg"
+                                                        class="img-fluid" alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Zapatillas Topper</h4>
+                                                    <p class="item-price"><strike>$12.500</strike> <span>$10.690</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-stroke"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/raquetahead.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Raqueta Head</h4>
+                                                    <p class="item-price"><strike>$13.000</strike> <span>$11.980</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-stroke"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/raquetaPrince.jpg"img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Raqueta Prince</h4>
+                                                    <p class="item-price"><strike>$17.000</strike> <span>$15.699</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-stroke"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex2">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/zapatillastenisfila.jpg"
+                                                        class="img-fluid" alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Zapatillas Fila</h4>
+                                                    <p class="item-price"><strike>$11.050</strike> <span>$10.699</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/remera.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Remera Nike</h4>
+                                                    <p class="item-price"><strike>$2.600</strike> <span>$2.399</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/shorttennis.jpg" class="img-fluid"
+                                                        alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Short Tenis</h4>
+                                                    <p class="item-price"><strike>$1.600</strike> <span>$1.499</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star-half-stroke"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm displayCardIndex2">
+                                            <div class="contenedorCard">
+                                                <div class="img-box">
+                                                    <img src="img/muñequeras.jpg"
+                                                        class="img-fluid" alt="">
+                                                </div>
+                                                <div class="paddingCard">
+                                                    <h4>Muñequeras topper</h4>
+                                                    <p class="item-price"><strike>$950</strike> <span>$860</span>
+                                                    </p>
+                                                    <div class="star-rating">
+                                                        <ul class="d-flex justify-content-center ulCards">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa-regular fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="paginas/carrito.html" class="btn">Comprar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control-prev" href="#myCarousel2" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel2" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
                     </div>
-                    <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="col-lg-12 col-xl-5 order-1 order-lg-1">
                         <img class="imagenIndex2" src="img/tennis.svg" alt="">
                     </div>
                 </div>
             </div>
             <div class="separadorIndex3"></div>
+        </div>
+        <div class="separadorIndex3"></div>
+        <!-- seccion index3 -->
+        <div class="jumbotron fondoIndex radiusIndex">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 text-center colorTextoIndex">
+                        <h2 class="sizeTitle">Y Mucho Mas:</h2>
+                    </div>
+                    <div class="col-12 separadorIndex2"></div>
+                    <div class="col-sm col-md col-lg col-xl">
+                        <img class="imagenIndex2" src="img/fan.svg" alt="">
+                    </div>
+                    <div class="col-sm col-md col-lg col-xl displayImgIndex">
+                        <img class="imagenIndex2" src="img/fan2.svg" alt="">
+                    </div>
+                    <div class="col-sm col-md col-lg col-xl displayImgIndex">
+                        <img class="imagenIndex2" src="img/basquet.svg" alt="">
+                    </div>
+                    <div class="col-12 separadorIndex2"></div>
+                    <div class="col-4 displayBotones3"></div>
+                    <button class="col-4 botonIndex2 displayBotones3 btn">
+                        <a href="paginas/articulos.html">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text text-center">Ver Todos los Articulos</span>
+                        </a>
+                    </button>
+                    <button class="d-lg-none d-xl-none col-12 botonIndex2 btn">
+                        <a href="paginas/articulos.html">
+                        <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text text-center">Ver Todos los Articulos</span>
+                        </a>
+                    </button>
+                    <div class="col-4 displayBotones3"></div>
+                </div>
+                
+                <div class="col-lg-12 separadorIndex3"></div>
+            </div>
         </div>
         <div class="separadorIndex3"></div>
         <!-- termina contenido pag -->
